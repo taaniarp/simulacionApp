@@ -15,6 +15,16 @@
 		CE2B80322049C5CA003AD91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2B80302049C5CA003AD91B /* LaunchScreen.storyboard */; };
 		CE2B803D2049C5CB003AD91B /* simulacionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B803C2049C5CB003AD91B /* simulacionAppTests.swift */; };
 		CE2B80482049C5CB003AD91B /* simulacionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B80472049C5CB003AD91B /* simulacionAppUITests.swift */; };
+		CE2B80582049C75A003AD91B /* UserList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2B80572049C75A003AD91B /* UserList.plist */; };
+		CE2B805B2049C850003AD91B /* Usuarios+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B80592049C850003AD91B /* Usuarios+CoreDataClass.swift */; };
+		CE2B805C2049C850003AD91B /* Usuarios+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B805A2049C850003AD91B /* Usuarios+CoreDataProperties.swift */; };
+		CE5921862050781100CAF5D6 /* Comida+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5921822050781100CAF5D6 /* Comida+CoreDataClass.swift */; };
+		CE5921872050781100CAF5D6 /* Comida+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5921832050781100CAF5D6 /* Comida+CoreDataProperties.swift */; };
+		CE5921882050781100CAF5D6 /* TipoComida+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5921842050781100CAF5D6 /* TipoComida+CoreDataClass.swift */; };
+		CE5921892050781100CAF5D6 /* TipoComida+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5921852050781100CAF5D6 /* TipoComida+CoreDataProperties.swift */; };
+		CE59218B20507A0F00CAF5D6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59218A20507A0F00CAF5D6 /* ViewController2.swift */; };
+		CECD04D1205C36DE000DE450 /* ListaTipos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD04D0205C36DE000DE450 /* ListaTipos.swift */; };
+		CEE942E4205C454500B551F7 /* CellTipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE942E3205C454500B551F7 /* CellTipo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		CE2B80432049C5CB003AD91B /* simulacionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simulacionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2B80472049C5CB003AD91B /* simulacionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simulacionAppUITests.swift; sourceTree = "<group>"; };
 		CE2B80492049C5CB003AD91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2B80572049C75A003AD91B /* UserList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserList.plist; sourceTree = "<group>"; };
+		CE2B80592049C850003AD91B /* Usuarios+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuarios+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE2B805A2049C850003AD91B /* Usuarios+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usuarios+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE5921822050781100CAF5D6 /* Comida+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comida+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE5921832050781100CAF5D6 /* Comida+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comida+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE5921842050781100CAF5D6 /* TipoComida+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TipoComida+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE5921852050781100CAF5D6 /* TipoComida+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TipoComida+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE59218A20507A0F00CAF5D6 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CECD04D0205C36DE000DE450 /* ListaTipos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTipos.swift; sourceTree = "<group>"; };
+		CEE942E3205C454500B551F7 /* CellTipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTipo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,13 @@
 		CE2B80182049C5CA003AD91B = {
 			isa = PBXGroup;
 			children = (
+				CEE942E3205C454500B551F7 /* CellTipo.swift */,
+				CE5921822050781100CAF5D6 /* Comida+CoreDataClass.swift */,
+				CE5921832050781100CAF5D6 /* Comida+CoreDataProperties.swift */,
+				CE5921842050781100CAF5D6 /* TipoComida+CoreDataClass.swift */,
+				CE5921852050781100CAF5D6 /* TipoComida+CoreDataProperties.swift */,
+				CE2B80592049C850003AD91B /* Usuarios+CoreDataClass.swift */,
+				CE2B805A2049C850003AD91B /* Usuarios+CoreDataProperties.swift */,
 				CE2B80232049C5CA003AD91B /* simulacionApp */,
 				CE2B803B2049C5CB003AD91B /* simulacionAppTests */,
 				CE2B80462049C5CB003AD91B /* simulacionAppUITests */,
@@ -102,10 +129,13 @@
 				CE2B80242049C5CA003AD91B /* AppDelegate.swift */,
 				CE2B80262049C5CA003AD91B /* ViewController.swift */,
 				CE2B80282049C5CA003AD91B /* Main.storyboard */,
+				CE59218A20507A0F00CAF5D6 /* ViewController2.swift */,
 				CE2B802E2049C5CA003AD91B /* Assets.xcassets */,
 				CE2B80302049C5CA003AD91B /* LaunchScreen.storyboard */,
 				CE2B80332049C5CA003AD91B /* Info.plist */,
+				CE2B80572049C75A003AD91B /* UserList.plist */,
 				CE2B802B2049C5CA003AD91B /* simulacionApp.xcdatamodeld */,
+				CECD04D0205C36DE000DE450 /* ListaTipos.swift */,
 			);
 			path = simulacionApp;
 			sourceTree = "<group>";
@@ -238,6 +268,7 @@
 				CE2B80322049C5CA003AD91B /* LaunchScreen.storyboard in Resources */,
 				CE2B802F2049C5CA003AD91B /* Assets.xcassets in Resources */,
 				CE2B802A2049C5CA003AD91B /* Main.storyboard in Resources */,
+				CE2B80582049C75A003AD91B /* UserList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5921862050781100CAF5D6 /* Comida+CoreDataClass.swift in Sources */,
+				CEE942E4205C454500B551F7 /* CellTipo.swift in Sources */,
 				CE2B802D2049C5CA003AD91B /* simulacionApp.xcdatamodeld in Sources */,
+				CE5921872050781100CAF5D6 /* Comida+CoreDataProperties.swift in Sources */,
+				CECD04D1205C36DE000DE450 /* ListaTipos.swift in Sources */,
 				CE2B80272049C5CA003AD91B /* ViewController.swift in Sources */,
+				CE2B805B2049C850003AD91B /* Usuarios+CoreDataClass.swift in Sources */,
+				CE59218B20507A0F00CAF5D6 /* ViewController2.swift in Sources */,
+				CE2B805C2049C850003AD91B /* Usuarios+CoreDataProperties.swift in Sources */,
+				CE5921892050781100CAF5D6 /* TipoComida+CoreDataProperties.swift in Sources */,
+				CE5921882050781100CAF5D6 /* TipoComida+CoreDataClass.swift in Sources */,
 				CE2B80252049C5CA003AD91B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

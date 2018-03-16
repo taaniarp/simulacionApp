@@ -17,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Guard es como una proteccion, si podemos hacer algo, lo hacemos, pero si no se ejectua salimos de la estructura para "no romper nada".
+        
+        guard let view = window?.rootViewController as? ViewController else
+        {
+            return true
+        }
+        
+        view.managedContext = persistentContainer.viewContext
+        
+        
         return true
     }
 
