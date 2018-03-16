@@ -31,5 +31,15 @@ public class TipoComida: NSManagedObject {
         }
         return nil
     }
+    
+    func readDictionary() {
+        var myDict: NSDictionary?
+        if let path = Bundle.main.path(forResource: "Config", ofType: "plist") {
+            myDict = NSDictionary(contentsOfFile: path)
+        }
+        if let dict = myDict {
+            
+        }
+    }
 
 }
